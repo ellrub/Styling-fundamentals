@@ -1,7 +1,26 @@
 body {
     /* put fonts for the entire document here */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     /* add h1 color here */
+    color: red;
+    display: inline;
+    font-size: 50px;
+}
+
+h1 {
+    /* add h1 color here */
+    color: blue;
+}
+
+.image {
+    /* add image width here */
+    width: 100px;
+    height: 100px;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
 }
