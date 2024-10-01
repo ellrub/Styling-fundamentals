@@ -1,6 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #c3e4d6;
+}
+
 body {
     /* put fonts for the entire document here */
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header, main {
+    background-color: white;
+    padding: 20px;
 }
 
 h1 {
@@ -23,4 +46,25 @@ h1 {
 
 input[type="checkbox"]:hover {
     cursor: pointer;
+}
+
+.container {
+    width: 80ch;
+}
+
+footer {
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 5px;
+    background-color: #c3e4d6;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
 }
